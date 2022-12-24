@@ -1,0 +1,29 @@
+{
+  "name": "fnnc",
+  "version": "1.0.0",
+  "description": "All in one financial calculation functions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onur-celik/fnnc-npm-package.git"
+  },
+  "keywords": [
+    "financial",
+    "calculations",
+    "javascript",
+    "rsi",
+    "macd",
+    "stoch"
+  ],
+  "author": "Mustafa Onur Çelik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onur-celik/fnnc-npm-package/issues"
+  },
+  "homepage": "https://github.com/onur-celik/fnnc-npm-package#readme",
+  "type": "module"
+}
