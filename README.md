@@ -18,3 +18,17 @@
 - [DMI](https://medium.com/@onurcelik.dev/calculating-dmi-directional-movement-index-with-javascript-b65548c6649a)
 - [ATR](https://medium.com/@onurcelik.dev/calculating-atr-average-true-range-using-javascript-40e0fc919725)
 
+### How to use?
+First import a function that you want from the package
+```
+ import { EMA } from "fnnc";
+```
+
+And then use the function wherever you want.
+```
+let closingPrices = [ 12, 34, 56, 32, 54, 65];
+let period = 12;
+const exponentialMovingAverage = EMA(closingPrices, period);
+
+console.log(exponentialMovingAverage) // 33.66031139827575
+```
