@@ -1,6 +1,6 @@
 {
   "name": "@onur-celik/fnnc",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "All in one financial calculation functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
