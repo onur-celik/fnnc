@@ -1,13 +1,13 @@
 {
-  "name": "fnnc",
+  "name": "@onur-celik/fnnc",
   "version": "1.0.3",
   "description": "All in one financial calculation functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
-  "repository": "https://github.com/onur-celik/fnnc-npm-package.git",
+  "repository": "https://github.com/onur-celik/fnnc.git",
   "keywords": [
     "financial",
     "calculations",
@@ -19,11 +19,11 @@
   "author": "Mustafa Onur Çelik",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/onur-celik/fnnc-npm-package/issues"
+    "url": "https://github.com/onur-celik/fnnc/issues"
   },
-  "homepage": "https://github.com/onur-celik/fnnc-npm-package#readme",
+  "homepage": "https://github.com/onur-celik/fnnc#readme",
   "type": "module",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@onur-celik:registry": "https://npm.pkg.github.com"
   }
 }
