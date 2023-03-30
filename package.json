@@ -7,10 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/onur-celik/fnnc-npm-package.git"
-  },
+  "repository": "https://github.com/onur-celik/fnnc-npm-package.git",
   "keywords": [
     "financial",
     "calculations",
@@ -25,5 +22,8 @@
     "url": "https://github.com/onur-celik/fnnc-npm-package/issues"
   },
   "homepage": "https://github.com/onur-celik/fnnc-npm-package#readme",
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
